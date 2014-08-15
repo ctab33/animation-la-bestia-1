@@ -1,0 +1,94 @@
+body {
+			background-color:  #fff;
+			margin: auto 0; 
+		
+			
+			
+	}
+	   #mapa_Mexico {
+			
+			background-repeat: no-repeat;
+			
+			
+		
+	   }
+	   .svg_lines {
+		margin-top: -510px; 
+		margin-left: 250px; 
+	    
+	   }
+		
+		div {
+			text-align:center;
+			padding:150px 0;
+		} 
+		text {
+			font-family: 'Francois One', sans-serif;
+			font-size: 1em; 
+			color: #996300;
+			opacity: 0.7;
+		}
+		
+		circle {
+			color:#d3d3d3;
+			opacity: 0.7;
+			
+		
+		}
+		.st0{
+			fill:none;
+			stroke-miterlimit:10;
+			stroke-width: 3;
+			stroke:red;
+			stroke-dasharray: 25;
+			stroke-offset: 0;
+			-webkit-animation: dash 7s linear forwards infinite; 
+			-moz-animation: dash 7s linear forwards infinite; 
+			-o-animation: dash 7s linear forwards infinite; 
+			animation: dash 7s linear forwards infinite; 
+			
+	
+			}
+			
+			@-webkit-keyframes dash{
+				from  {
+					stroke-dashoffset:1000;
+					}
+				to {
+					stroke-dashoffset: 0;
+					}
+				
+			}
+		.st14{
+		
+		fill:none;
+			stroke:#000000;
+			stroke-miterlimit:10;
+			stroke-width: 3;
+			stroke:blue;
+			stroke-dasharray: 25;
+			stroke-offset: 0;
+			-webkit-animation: dash 10s linear forwards infinite; 
+			-moz-animation: dash 10s linear forwards infinite; 
+			-o-animation: dash 10s linear forwards infinite; 
+			animation: dash 10s linear forwards infinite; 
+			
+			}
+			
+			@-webkit-keyframes dash{
+				from  {
+					stroke-dashoffset: 1000;
+					}
+				to {
+					stroke-dashoffset: 0;
+					}
+	    
+		.st7{fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+		
+		.train {
+		 margin-left: 100px;
+		 margin-top: 100px; 
+		 z-index: 9999; 
+		
+		}
+		
